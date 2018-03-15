@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983655231E83BED000723316 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 983655221E83BED000723316 /* main.m */; };
+		983655261E83BED000723316 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 983655251E83BED000723316 /* AppDelegate.m */; };
+		983655291E83BED000723316 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983655281E83BED000723316 /* ViewController.m */; };
+		9836552C1E83BED000723316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9836552A1E83BED000723316 /* Main.storyboard */; };
+		9836552E1E83BED000723316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9836552D1E83BED000723316 /* Assets.xcassets */; };
+		983655311E83BED000723316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9836552F1E83BED000723316 /* LaunchScreen.storyboard */; };
+		9836553C1E83BED000723316 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9836553B1E83BED000723316 /* ____Tests.m */; };
+		983655471E83BED000723316 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983655461E83BED000723316 /* ____UITests.m */; };
+		987850451E851EE70027D085 /* HeartBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 987850441E851EE70027D085 /* HeartBeat.m */; };
+		9878C7D71E88EF3200E3A6DC /* HeartLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9878C7D61E88EF3200E3A6DC /* HeartLive.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983655381E83BED000723316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983655161E83BECF00723316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9836551D1E83BED000723316;
+			remoteInfo = "摄像心率";
+		};
+		983655431E83BED000723316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983655161E83BECF00723316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9836551D1E83BED000723316;
+			remoteInfo = "摄像心率";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9836551E1E83BED000723316 /* 摄像心率.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "摄像心率.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		983655221E83BED000723316 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		983655241E83BED000723316 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		983655251E83BED000723316 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		983655271E83BED000723316 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		983655281E83BED000723316 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9836552B1E83BED000723316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9836552D1E83BED000723316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		983655301E83BED000723316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		983655321E83BED000723316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983655371E83BED000723316 /* 摄像心率Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "摄像心率Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9836553B1E83BED000723316 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		9836553D1E83BED000723316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983655421E83BED000723316 /* 摄像心率UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "摄像心率UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		983655461E83BED000723316 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		983655481E83BED000723316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987850431E851EE70027D085 /* HeartBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartBeat.h; sourceTree = "<group>"; };
+		987850441E851EE70027D085 /* HeartBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartBeat.m; sourceTree = "<group>"; };
+		9878C7D51E88EF3200E3A6DC /* HeartLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartLive.h; sourceTree = "<group>"; };
+		9878C7D61E88EF3200E3A6DC /* HeartLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartLive.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9836551B1E83BED000723316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983655341E83BED000723316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9836553F1E83BED000723316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983655151E83BECF00723316 = {
+			isa = PBXGroup;
+			children = (
+				983655201E83BED000723316 /* 摄像心率 */,
+				9836553A1E83BED000723316 /* 摄像心率Tests */,
+				983655451E83BED000723316 /* 摄像心率UITests */,
+				9836551F1E83BED000723316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9836551F1E83BED000723316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9836551E1E83BED000723316 /* 摄像心率.app */,
+				983655371E83BED000723316 /* 摄像心率Tests.xctest */,
+				983655421E83BED000723316 /* 摄像心率UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983655201E83BED000723316 /* 摄像心率 */ = {
+			isa = PBXGroup;
+			children = (
+				983655241E83BED000723316 /* AppDelegate.h */,
+				983655251E83BED000723316 /* AppDelegate.m */,
+				983655271E83BED000723316 /* ViewController.h */,
+				983655281E83BED000723316 /* ViewController.m */,
+				9878C7D51E88EF3200E3A6DC /* HeartLive.h */,
+				9878C7D61E88EF3200E3A6DC /* HeartLive.m */,
+				9836552A1E83BED000723316 /* Main.storyboard */,
+				9836552D1E83BED000723316 /* Assets.xcassets */,
+				9836552F1E83BED000723316 /* LaunchScreen.storyboard */,
+				983655321E83BED000723316 /* Info.plist */,
+				983655211E83BED000723316 /* Supporting Files */,
+				987850431E851EE70027D085 /* HeartBeat.h */,
+				987850441E851EE70027D085 /* HeartBeat.m */,
+			);
+			path = "摄像心率";
+			sourceTree = "<group>";
+		};
+		983655211E83BED000723316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983655221E83BED000723316 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9836553A1E83BED000723316 /* 摄像心率Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9836553B1E83BED000723316 /* ____Tests.m */,
+				9836553D1E83BED000723316 /* Info.plist */,
+			);
+			path = "摄像心率Tests";
+			sourceTree = "<group>";
+		};
+		983655451E83BED000723316 /* 摄像心率UITests */ = {
+			isa = PBXGroup;
+			children = (
+				983655461E83BED000723316 /* ____UITests.m */,
+				983655481E83BED000723316 /* Info.plist */,
+			);
+			path = "摄像心率UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9836551D1E83BED000723316 /* 摄像心率 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9836554B1E83BED000723316 /* Build configuration list for PBXNativeTarget "摄像心率" */;
+			buildPhases = (
+				9836551A1E83BED000723316 /* Sources */,
+				9836551B1E83BED000723316 /* Frameworks */,
+				9836551C1E83BED000723316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "摄像心率";
+			productName = "摄像心率";
+			productReference = 9836551E1E83BED000723316 /* 摄像心率.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983655361E83BED000723316 /* 摄像心率Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9836554E1E83BED000723316 /* Build configuration list for PBXNativeTarget "摄像心率Tests" */;
+			buildPhases = (
+				983655331E83BED000723316 /* Sources */,
+				983655341E83BED000723316 /* Frameworks */,
+				983655351E83BED000723316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983655391E83BED000723316 /* PBXTargetDependency */,
+			);
+			name = "摄像心率Tests";
+			productName = "摄像心率Tests";
+			productReference = 983655371E83BED000723316 /* 摄像心率Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		983655411E83BED000723316 /* 摄像心率UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983655511E83BED000723316 /* Build configuration list for PBXNativeTarget "摄像心率UITests" */;
+			buildPhases = (
+				9836553E1E83BED000723316 /* Sources */,
+				9836553F1E83BED000723316 /* Frameworks */,
+				983655401E83BED000723316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983655441E83BED000723316 /* PBXTargetDependency */,
+			);
+			name = "摄像心率UITests";
+			productName = "摄像心率UITests";
+			productReference = 983655421E83BED000723316 /* 摄像心率UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983655161E83BECF00723316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZM;
+				TargetAttributes = {
+					9836551D1E83BED000723316 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9CHJPN5EEJ;
+						ProvisioningStyle = Automatic;
+					};
+					983655361E83BED000723316 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9836551D1E83BED000723316;
+					};
+					983655411E83BED000723316 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9836551D1E83BED000723316;
+					};
+				};
+			};
+			buildConfigurationList = 983655191E83BECF00723316 /* Build configuration list for PBXProject "摄像心率" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 983655151E83BECF00723316;
+			productRefGroup = 9836551F1E83BED000723316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9836551D1E83BED000723316 /* 摄像心率 */,
+				983655361E83BED000723316 /* 摄像心率Tests */,
+				983655411E83BED000723316 /* 摄像心率UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9836551C1E83BED000723316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983655311E83BED000723316 /* LaunchScreen.storyboard in Resources */,
+				9836552E1E83BED000723316 /* Assets.xcassets in Resources */,
+				9836552C1E83BED000723316 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983655351E83BED000723316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983655401E83BED000723316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9836551A1E83BED000723316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9878C7D71E88EF3200E3A6DC /* HeartLive.m in Sources */,
+				983655291E83BED000723316 /* ViewController.m in Sources */,
+				987850451E851EE70027D085 /* HeartBeat.m in Sources */,
+				983655261E83BED000723316 /* AppDelegate.m in Sources */,
+				983655231E83BED000723316 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983655331E83BED000723316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9836553C1E83BED000723316 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9836553E1E83BED000723316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983655471E83BED000723316 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983655391E83BED000723316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9836551D1E83BED000723316 /* 摄像心率 */;
+			targetProxy = 983655381E83BED000723316 /* PBXContainerItemProxy */;
+		};
+		983655441E83BED000723316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9836551D1E83BED000723316 /* 摄像心率 */;
+			targetProxy = 983655431E83BED000723316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9836552A1E83BED000723316 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9836552B1E83BED000723316 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9836552F1E83BED000723316 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983655301E83BED000723316 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		983655491E83BED000723316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9836554A1E83BED000723316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9836554C1E83BED000723316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CHJPN5EEJ;
+				INFOPLIST_FILE = "摄像心率/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiekang.cn.DoctorVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9836554D1E83BED000723316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CHJPN5EEJ;
+				INFOPLIST_FILE = "摄像心率/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiekang.cn.DoctorVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9836554F1E83BED000723316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "摄像心率Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangMin.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/摄像心率.app/摄像心率";
+			};
+			name = Debug;
+		};
+		983655501E83BED000723316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "摄像心率Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangMin.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/摄像心率.app/摄像心率";
+			};
+			name = Release;
+		};
+		983655521E83BED000723316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "摄像心率UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangMin.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "摄像心率";
+			};
+			name = Debug;
+		};
+		983655531E83BED000723316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "摄像心率UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangMin.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "摄像心率";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983655191E83BECF00723316 /* Build configuration list for PBXProject "摄像心率" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983655491E83BED000723316 /* Debug */,
+				9836554A1E83BED000723316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9836554B1E83BED000723316 /* Build configuration list for PBXNativeTarget "摄像心率" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9836554C1E83BED000723316 /* Debug */,
+				9836554D1E83BED000723316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9836554E1E83BED000723316 /* Build configuration list for PBXNativeTarget "摄像心率Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9836554F1E83BED000723316 /* Debug */,
+				983655501E83BED000723316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983655511E83BED000723316 /* Build configuration list for PBXNativeTarget "摄像心率UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983655521E83BED000723316 /* Debug */,
+				983655531E83BED000723316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983655161E83BECF00723316 /* Project object */;
+}
