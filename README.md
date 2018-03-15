@@ -11,7 +11,7 @@
  }
  */
 
-![项目结构图](https://github.com/KeenTeam1990/HeartBeat/blob/master/heart/a.png)
+![项目结构图](https://github.com/KeenTeam1990/HeartBeat/blob/master/heart/abc.png)
 
 #pragma mark - 测心率回调
 
